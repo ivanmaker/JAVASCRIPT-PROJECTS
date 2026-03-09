@@ -4,3 +4,12 @@ function change_text_color() {
     testVariable.style.color = "red";
     testVariable.innerHTML = "Wow!"
 }
+
+/*Variables used in teh concat_text function*/
+text1 = "The first part - followed by - ";
+text2 = "the second part";
+
+/*Function to concatinate text and display it when the text in p tag is clicked on*/
+function concat_text(){
+document.getElementById("concat").innerHTML = text1 + text2;
+}
