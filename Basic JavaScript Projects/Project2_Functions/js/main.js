@@ -11,5 +11,5 @@ text2 = "the second part";
 
 /*Function to concatinate text and display it when the text in p tag is clicked on*/
 function concat_text(){
-document.getElementById("concat").innerHTML = text1 + text2;
+document.getElementById("concat").innerHTML = text1 += text2;
 }
