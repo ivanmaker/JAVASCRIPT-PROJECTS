@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project1_expressions_alert</title>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <!--Type OF-->
+
+    <h1>Using TypeOf</h1>
+    <p>See below to find out what data type the number 10 is!</p>
+    <script>
+        Ten = 10;
+        document.write(typeof Ten);
+    </script>
+    <!--TYPE COERCION-->
+
+    <h1>Type Coercion</h1>
+    <p id="type-co" onclick="Type_Coercion()">Click me to see the number 10 converted into a string by appending text to
+        it!</p>
+
+    <!--isNaN-->
+
+    <h1>isNaN</h1>
+    <p id="nan-true-text" onclick="NaN_True()">Click me to if the number 10 is considered "Not a Number" in JS!</p>
+
+    <p id="nan-false-text" onclick="NaN_False()">Click me to if the number "ten" is considered "Not a Number" in JS!</p>
+
+    <!--Infinity-->
+
+    <h1>Infinity/-Infinity</h1>
+    <p id="infin" onclick="Positive_Infin()">Click me to see what JS displays when it tries to calculate a
+        <b>positive</b> number beyond what it's capable of!</p>
+
+    <p id="neg-infin" onclick="Negative_Infin()">Click me to see what JS displays when it tries to calculate a
+        <b>negative</b> number beyond what it's capable of!</p>
+
+    <!--Comparison opperators <> -->
+
+    <h1>Comparison Operators &lt; and &gt;</h1>
+    <p id="grtr-true" onclick="Greater_Than_True()">Click me to see what JS displays when it tries to calculate if 10 is
+        greater than 5!</p>
+
+    <p id="grtr-false" onclick="Less_Than_False()">Click me to see what JS displays when it tries to calculate if 10
+        is less than 5!</p>
+
+    <!-- Using the === comparison operator-->
+
+    <h1>Using ===</h1>
+    <p id="eee-1" onclick="EEE_1()">Click me to see what JS displays when you use the === operator to compare two values
+        where the data type and values match!</p>
+
+    <p id="eee-2" onclick="EEE_2()">Click me to see what JS displays when you use the === operator to compare two values
+        where the data type and values are both different!</p>
+
+    <p id="eee-3" onclick="EEE_3()">Click me to see what JS displays when you use the === operator to compare two values
+        where the data type is differnt but the values are the same!</p>
+
+    <p id="eee-4" onclick="EEE_4()">Click me to see what JS displays when you use the === operator to compare two values
+        where the data type is the same for both but the values are different!</p>
+
+    <!--Using AND and OR-->
+
+    <h1>Using the && and || Operators</h1>
+    <p id="and-true" onclick="And_True()">Click me to see what JS displays when you make two comparisons that evalutate
+        to true using &&!</p>
+
+    <p id="and-false" onclick="And_False()">Click me to see what JS displays when you make two comparisons that
+        evalutate to false using &&!</p>
+
+    <p id="or-true" onclick="Or_True()">Click me to see what JS displays when you make two comparisons that evalutate to
+        true using ||!</p>
+
+    <p id="or-false" onclick="Or_False()">Click me to see what JS displays when you make two comparisons that evalutate
+        to false using ||!</p>
+
+    <!--Using ! (not)-->
+
+    <h1>Using the "Not" Operator</h1>
+    <p id="not-true" onclick="Not_True()">Click me to see what JS displays when you want the outcome of a comparison evaluation that is True, evalute to False instead!</p>
+
+    <p id="not-false" onclick="Not_False()">Click me to see what JS displays when you want the outcome of a comparison evaluation that is False, evalute to True instead!</p>
+
+</html>
