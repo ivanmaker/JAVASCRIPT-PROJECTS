@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project1_expressions_alert</title>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <!--Practice using the Concat() method to combine multiple strings into one-->
+    <h3>Please click the button below to see multiple Strings concatinated together!</h3>
+    <P>"These" " Go" "Together!" are all separate strings and will be combined into one sentence and displayed when you
+        click the button</P>
+    <button onclick="Sentence()">Click Here!</button>
+    <p id="join-words"></p><br>
+
+    <!--Practice using the Slice() method to grab a specifc word from a string of words-->
+    <h3>Please click the button below to "Slice" out the word "Go" from the previously separate strings</h3>
+    <p>From the sentence "These Go Together!" the word "Go" will be removed and displayed using the Slice() method</p>
+    <button onclick="Text_Slice()">Click Here!</button>
+    <p id="sliced-text"></p><br>
+
+    <!--Practice using the toUperCase() method to change all of the letter character in a string to uppercase-->
+    <h3>Please click the button below to see the string "These Go Together!" be turned into all upper case using the
+        toUpperCase() method</h3>
+    <button onclick="Toupper_Case()">Click Here!</button>
+    <p id="to-upper"></p><br>
+
+    <!--Practice using the Search() method to find at what character somethings starts at in a string-->
+    <h3>Please click the button below to search the string "These Go Together!" for the number of characters leading up
+        to the word "Go"</h3>
+    <button onclick="Searcher()">Click Here!</button>
+    <p id="search-text"></p><br>
+
+    <!--Practice using the toString() method to change a number into a string-->
+    <h3>Please click the button below to search the number 10 be turned into a string!</h3>
+    <p>It won't really look different from how the number 10 is normally displayed, but the data type will have changed
+        from a number data type to strang data type!</p>
+    <button onclick="Stringer()">Click Here!</button>
+    <p id="stringed-number"></p><br>
+    
+    <!--Practice using the toPrecision() method to trucate a float to fewer numbers on the right side of the decimal-->
+    <h3>Please click the button below to see 10.123456789 be truncated to 10.123 using the toPrecision() method!</h3>
+    <button onclick="Prec()">Click Here!</button>
+    <p id="prec-number"></p><br>
+
+    <!--Practice using the toFixed() method to trucate a float to fewer numbers on the right side of the decimal-->
+    <h3>Please click the button below to see 10.123456789 be truncated to 10.123 using the toFixed() method!</h3>
+    <button onclick="Fixed()">Click Here!</button>
+    <p id="fixed-number"></p><br>
+
+    <!--Practice using the valueOf() method to return the primative value of a given value-->
+     <h3>Please click the button below to see the primative value of the string "String"!</h3>
+     <p>There is a type conversion going on here but it will just look like the word String is printed out</p>
+    <button onclick="Value()">Click Here!</button>
+    <p id="val-text"></p>
+</body>
+
+</html>
