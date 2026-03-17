@@ -1,0 +1,103 @@
+/*Font from google.fonts.com Orbitron*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Yesteryear&display=swap');
+
+html {
+    font-size: 70%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.calculator {
+    border: 1.2px solid darkslategray;
+    border-radius: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: rgb(148, 137, 137);
+}
+
+.calculator-screen {
+    width: 100%;
+    font-size: 5rem;
+    height: 80px;
+    border-color: 5px black;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    text-align: right;
+    padding-right: 43px;
+    padding-left: 20px;
+    border-radius: 27px 27px 0px 0px;
+    font-family: "Orbitron", sans-serif;
+}
+
+button {
+    font-family: "Orbitron", sans-serif;
+    height: 70px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    font-size: 3.2rem;
+    color: black;
+    background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, 0.6));
+    text-shadow: 0 1px rgba(255, 255, 255, .4);
+    /*Each value belis is separated by a comma "," after the rgba values*/
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .05),
+        inset 0 1px 0 0 rgba(255, 255, 255, .05),
+        inset 0 -1px 0 0 rgba(255, 255, 255, .05),
+        0 1px 0 0 rgba(255, 255, 255, .05);
+    box-shadow: 3px 3px;
+}
+
+button:hover {
+    background-color: #753c3c;
+    color: white;
+}
+
+.number-button:hover {
+    background-color: darkgray;
+}
+
+.operator {
+    color: black;
+    background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, 0.5));
+    background-color: rgb(185, 93, 93);
+}
+
+.all-clear {
+    background-color: rgb(83, 56, 56);
+    color: black;
+}
+
+.equal-sign {
+    background-color: rgb(118, 118, 187);
+    color: black;
+    height: 100%;
+    grid-area: 2/4/6/5;
+}
+
+.equal-sign:hover {
+    background-color: rgb(48, 48, 65);
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.bg {
+    background-image: url("./images/blackboard.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 700px;
+    background-size: 100%;
+}
