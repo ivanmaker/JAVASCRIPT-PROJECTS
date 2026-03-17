@@ -1,9 +1,9 @@
 //Function to test using a While loop, prints a string and an iterating number to demonstrait the loop. Also print the length of character that get printed out
 function Call_While() {
-    let Tik_Tok_Videos = 0;
+    let Tik_Tok_Videos = `0`;
     let Print_Text = "";
     while (Tik_Tok_Videos < 11) {
-        Print_Text += "You've watched " + Tik_Tok_Videos + " Tik Tok videos today!" + "<br>";
+        Print_Text += `You've watched ${Tik_Tok_Videos} Tik Tok videos today! <br>`;
         ++Tik_Tok_Videos;
     }
     document.getElementById("while-loop").innerHTML = Print_Text;
