@@ -1,0 +1,87 @@
+/*Overall form styling*/
+form{
+    border-radius: 10px;
+    background-color: rgb(209, 201, 201);
+    padding: 20px;
+    width: 30%;
+    box-shadow: 3px 3px;
+}
+
+/*Styling for the name input text box*/
+input[type=text]{
+    border: 2px solid darkgrey;
+    background-color: white;
+    border-radius: 5px;
+    width: 55%;
+    outline: none;
+    transition: 0.5s ease;
+    box-shadow: 3px 3px;
+    height: 20px;
+}
+
+/*hover and focus effects for the name text box, class selection div, and the submit button*/
+input[type=text]:focus, input[type=text]:hover, input[type=submit]:hover, .class-choice:hover{
+    border: 2px solid black;
+    transition: 0.5s ease;
+    background-color: rgb(241, 225, 206);
+}
+
+/*Styling for the label that tells you where to enter your name*/
+.name-label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    background-color: white;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 3px 3px;
+}
+
+/*General label styling using for the radio button text, separate from the name field lable because the background and box-shadow doesn't look good here*/
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/*Div that surrounds the class choice radio button field*/
+.class-choice{
+    background-color: white;
+    border-radius: 5px;
+    width: 93%;
+    padding: 10px;
+    accent-color: black;
+    border: 2px solid darkgrey;
+    transition: 0.5s ease;
+    box-shadow: 3px 3px;
+}
+
+/*Styles the text above the class choice area, kept is separate from other p tags, just in case*/
+#p-class-text{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    width: 96%;
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+    border: 2px solid darkgray;
+    padding-left: 5px;
+}
+
+/*Submit button styling*/
+input[type=submit]{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s ease;
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+    border: 2px solid darkgrey;
+    width: 98%;
+}
