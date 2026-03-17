@@ -193,7 +193,7 @@ function drawLine(coordX1, coordY1, coordX2, coordY2) {
             if (x >= x2 && y <= y2) { cancelAnimationFrame(animationLoop); }
         }
     }
-    //This function clears our canvas after our wind line is drawn
+    //This function clears our canvas after our win line is drawn
     function clear() {
         //This line starts our animation loop
         const animationLoop = requestAnimationFrame(clear);
@@ -204,6 +204,11 @@ function drawLine(coordX1, coordY1, coordX2, coordY2) {
     }
     //This line disallows clicking while the win sound is playing
     disableClick();
+    document.body.style.backgroundImage = 'url("./images/confetti.gif")';
+    document.body.style.backgroundRepeat = 'no-repeat';
+    document.body.style.backgroundSize = 'cover';
+    document.body.style.backgroundPosition = 'center';
+    document.body.style.backgroundAttachment = 'fixed'; // Ensures the background covers the whole viewport
     //This line plays the win sounds
     audio("./media/winGame.mp3");
     //This line calls our main animation loop
@@ -219,6 +224,7 @@ function resetGame() {
         let square = document.getElementById(String(i));
         //This removes our elements backgroundImage
         square.style.backgroundImage = "";
+        document.body.style.backgroundImage = "";
     }
     //This resets our array so it is empty and we cna start over
     selectedSquares = [];
