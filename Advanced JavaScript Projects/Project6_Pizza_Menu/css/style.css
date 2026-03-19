@@ -1,0 +1,112 @@
+#menuBG {
+    width: 600px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 600px;
+    height: 600px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.column {
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 600px;
+    padding-left: 500px;
+    
+}
+
+#btnOrder {
+    margin: 10px 0px 20px 13vw;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px rgb(88, 67, 27);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(223, 182, 69);
+    color: white;
+    border: 2px solid rgb(209, 142, 65);
+    text-shadow: 2px 2px 5px black;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#btnOrder:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+.bg {
+    background-image: url("/images/space.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0 0px 0 0vw;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.pizza {
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: darkgray;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 15px;
+}
+
+.pizza:hover {
+    background: rgba(4, 170, 109, 0.3)
+}
+
+h3 {
+    font-size: 30px;
+}
+
+body, html{
+    height: 100%;
+}
