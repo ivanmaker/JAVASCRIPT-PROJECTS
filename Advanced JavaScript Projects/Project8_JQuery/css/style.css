@@ -93,11 +93,11 @@ img {
 
 .question {
     padding: 5px 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black;/*Creates a line between each question*/
     cursor: pointer;
 }
 
 .answer {
-    display: none;
+    display: none;/*Hides FAQ answer until the user clicks the FAQ question*/
     padding: 40px 20px;
 }
