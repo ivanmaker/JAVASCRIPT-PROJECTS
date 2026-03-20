@@ -1,0 +1,39 @@
+.btn {
+  background-color: rgb(129, 129, 129);
+  border: none;
+  border-bottom: 3px solid rgb(201, 196, 196);
+  border-radius: 5px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 30px 6px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.btn:hover {
+  background-color: rgb(77, 77, 77);
+  border-bottom: 3px solid #ff9100;
+}
+
+p {
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  text-align: justify;
+  text-shadow: .5px .5px rgb(107, 107, 107);
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgb(136, 120, 120), rgb(41, 27, 27));
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
