@@ -7,7 +7,7 @@
 
 ### Basic JavaScript Projects
 
-- Expressions and Alert
+- <a name="Expressions and Alerts"></a>
 - Functions Basics
 - Math Operators
 - Dictionaries
@@ -29,3 +29,5 @@
 - AJAX
 - jQuery
 - Simple ToDo App
+
+## Expressions and Alerts
