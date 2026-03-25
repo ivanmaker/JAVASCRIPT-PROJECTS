@@ -2,7 +2,7 @@
 ## Tech Academy JS Projects
 --- 
 
-###This repository houses JS projects completed by **Isaac Vazquez** during his JS Developer bootcamp!
+### This repository houses JS projects completed by **Isaac Vazquez** during his JS Developer bootcamp!
 
 |Basic JavaScript Projects|Advanced JavaScript Projects|
 |:---|:---|
