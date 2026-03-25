@@ -4,8 +4,8 @@
 
  **This repository houses JS projects completed by Isaac Vazquez during his JS Developer bootcamp!**
 
-|:Basic JavaScript Projects|Advanced JavaScript Projects|
-|---|---|
+|Basic JavaScript Projects|Advanced JavaScript Projects|
+|:---|:---|
 |[Expressions and Alerts](#expressions-and-alerts)|[Switch Statements](#switch-statements)|
 |[Functions Basics](#functions-basics)|[Forms Basics](#forms-basics)|
 |[Math Operators](#math-operators)|[Data Attributes](#data-attributes)|
