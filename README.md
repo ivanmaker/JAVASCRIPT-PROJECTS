@@ -5,7 +5,7 @@
  **This repository houses JS projects completed by Isaac Vazquez during his JS Developer bootcamp!**
 
 
-###Basic JavaScript Projects
+### Basic JavaScript Projects
 
 - Expressions and Alert
 - Functions Basics
@@ -18,7 +18,7 @@
 - Countdown Function and Simple Slide Show
 - Loops and Arrays
 
-###Advanced JavaScript Projects
+### Advanced JavaScript Projects
 
 - Switch Statements
 - Forms Basics
