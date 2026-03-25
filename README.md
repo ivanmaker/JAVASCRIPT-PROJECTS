@@ -4,7 +4,6 @@
 
  **This repository houses JS projects completed by Isaac Vazquez during his JS Developer bootcamp!**
 
-
 ### Basic JavaScript Projects
 
 - [Expressions and Alerts](#expressions-and-alerts)
@@ -42,4 +41,17 @@
 ### String Methods <a name="string-methods"></a>
 ### Countdown Function and Simple Slide Show <a name="countdown-function-and-simple-slide-show"></a>
 ### Loops and Arrays <a name="loops-and-arrays"></a>
+
+---
+
+### Switch Statements <a name="switch-statements"></a>
+### Forms Basics <a name="forms-basics"></a>
+### Data Attributes <a name="data-attributes"></a>
+### Tic Tac Toe Game <a name="tic-tac-toe-game"></a>
+### Calculator <a name="calculator"></a>
+### Pizza Order Menu <a name="pizza-order-menu"></a>
+### AJAX <a name="ajax"></a>
+### jQuery <a name="jquery"></a>
+### Simple To-Do App <a name="simple-todo-app"></a>
+
 
