@@ -6,28 +6,16 @@
 
 |Basic JavaScript Projects|Advanced JavaScript Projects|
 |---|---|
-|[Expressions and Alerts](#expressions-and-alerts)||
-|[Functions Basics](#functions-basics)||
-|[Math Operators](#math-operators)||
-|[Dictionaries](#dictionaries)||
+|[Expressions and Alerts](#expressions-and-alerts)|[Switch Statements](#switch-statements)|
+|[Functions Basics](#functions-basics)|[Forms Basics](#forms-basics)|
+|[Math Operators](#math-operators)|[Data Attributes](#data-attributes)|
+|[Dictionaries](#dictionaries)|[Tic Tac Toe Game](#tic-tac-toe-game)|
 |[Comparisons and Type Coercion](#comparisons-and-type-coercion)||
-|[Ternary Operators and Constructors](#ternary-operators-and-constructors)||
-|[Scope Basics and Time Function](#scope-basics-and-time-function)||
-|[String Methods](#string-methods)||
-|[Countdown Function and Simple Slide Show](#countdown-function-and-simple-slide-show)||
-|[Loops and Arrays](#loops-and-arrays)||
-
-
-
-- [Switch Statements](#switch-statements)
-- [Forms Basics](#forms-basics)
-- [Data Attributes](#data-attributes)
-- [Tic Tac Toe Game](#tic-tac-toe-game)
-- [Calculator](#calculator)
-- [Pizza Order Menu](#pizza-order-menu)
-- [AJAX](#ajax)
-- [jQuery](#jquery)
-- [Simple To-Do App](#simple-todo-app)
+|[Ternary Operators and Constructors](#ternary-operators-and-constructors)|[Calculator](#calculator)|
+|[Scope Basics and Time Function](#scope-basics-and-time-function)|[Pizza Order Menu](#pizza-order-menu)|
+|[String Methods](#string-methods)|[AJAX](#ajax)|
+|[Countdown Function and Simple Slide Show](#countdown-function-and-simple-slide-show)|[jQuery](#jquery)|
+|[Loops and Arrays](#loops-and-arrays)|[Simple To-Do App](#simple-todo-app)|
 
 ---
 
