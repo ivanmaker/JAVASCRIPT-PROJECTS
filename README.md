@@ -2,11 +2,11 @@
 ## Tech Academy JS Projects
 --- 
 
- **This repository houses JS projects completed by Isaac Vazquez during his JS Developer bootcamp!**
+###This repository houses JS projects completed by **Isaac Vazquez** during his JS Developer bootcamp!
 
 |Basic JavaScript Projects|Advanced JavaScript Projects|
 |:---|:---|
-|- Expressions and Alerts|Switch Statements|
+|Expressions and Alerts|Switch Statements|
 |Functions Basics|Forms Basics|
 |Math Operators|Data Attributes|
 |Dictionaries|[Tic Tac Toe Game](#tic-tac-toe-game)|
