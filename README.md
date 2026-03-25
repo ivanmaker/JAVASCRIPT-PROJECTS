@@ -1,5 +1,5 @@
 # JAVASCRIPT-PROJECTS
-### Tech Academy JS Projects
+## Tech Academy JS Projects
 --- 
 
  **This repository houses JS projects completed by Isaac Vazquez during his JS Developer bootcamp!**
@@ -30,4 +30,16 @@
 - [jQuery](#jquery)
 - [Simple To-Do App](#simple-todo-app)
 
-#### Expressions and Alerts <a name="expressions-and-alerts"></a>
+---
+
+### Expressions and Alerts <a name="expressions-and-alerts"></a>
+### Functions Basics <a name="functions-basics"></a>
+### Math Operators <a name="math-operators"></a>
+### Dictionaries <a name="dictionaries"></a>
+### Comparisons and Type Coercion <a name="comparisons-and-type-coercion"></a>
+### Ternary Operators and Constructors <a name="ternary-operators-and-constructors"></a>
+### Scope Basics and Time Function <a name="scope-basics-and-time-function"></a>
+### String Methods <a name="string-methods"></a>
+### Countdown Function and Simple Slide Show <a name="countdown-function-and-simple-slide-show"></a>
+### Loops and Arrays <a name="loops-and-arrays"></a>
+
