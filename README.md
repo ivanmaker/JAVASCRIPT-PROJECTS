@@ -6,9 +6,9 @@
 
 |Basic JavaScript Projects|Advanced JavaScript Projects|
 |:---|:---|
-|Expressions and Alerts|Switch Statements|
+|- Expressions and Alerts|Switch Statements|
 |Functions Basics|Forms Basics|
-|Math Operators[Data Attributes|
+|Math Operators|Data Attributes|
 |Dictionaries|[Tic Tac Toe Game](#tic-tac-toe-game)|
 |Comparisons and Type Coercion|[Calculator](#calculator)|
 |Ternary Operators and Constructors|[Pizza Order Menu](#pizza-order-menu)|
