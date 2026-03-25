@@ -8,15 +8,15 @@
 | ------------------------------------------------------------------------------------- | -------------------------------- |
 
 | [Expressions and Alerts](#expressions-and-alerts) | |
-| [Functions Basics](#functions-basics) |
-| [Math Operators](#math-operators)							|
-| [Dictionaries](#dictionaries)								|
-| [Comparisons and Type Coercion](#comparisons-and-type-coercion)			|
-| [Ternary Operators and Constructors](#ternary-operators-and-constructors)		|
-| [Scope Basics and Time Function](#scope-basics-and-time-function)			|
-| [String Methods](#string-methods)							|
-| [Countdown Function and Simple Slide Show](#countdown-function-and-simple-slide-show) |
-| [Loops and Arrays](#loops-and-arrays)							|
+| [Functions Basics](#functions-basics) | |
+| [Math Operators](#math-operators) | |
+| [Dictionaries](#dictionaries) | |
+| [Comparisons and Type Coercion](#comparisons-and-type-coercion) | |
+| [Ternary Operators and Constructors](#ternary-operators-and-constructors) | |
+| [Scope Basics and Time Function](#scope-basics-and-time-function) | |
+| [String Methods](#string-methods) | |
+| [Countdown Function and Simple Slide Show](#countdown-function-and-simple-slide-show) | |
+| [Loops and Arrays](#loops-and-arrays) | |
 
 
 
