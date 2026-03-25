@@ -10,12 +10,12 @@
 |[Functions Basics](#functions-basics)|[Forms Basics](#forms-basics)|
 |[Math Operators](#math-operators)|[Data Attributes](#data-attributes)|
 |[Dictionaries](#dictionaries)|[Tic Tac Toe Game](#tic-tac-toe-game)|
-|[Comparisons and Type Coercion](#comparisons-and-type-coercion)||
-|[Ternary Operators and Constructors](#ternary-operators-and-constructors)|[Calculator](#calculator)|
-|[Scope Basics and Time Function](#scope-basics-and-time-function)|[Pizza Order Menu](#pizza-order-menu)|
-|[String Methods](#string-methods)|[AJAX](#ajax)|
-|[Countdown Function and Simple Slide Show](#countdown-function-and-simple-slide-show)|[jQuery](#jquery)|
-|[Loops and Arrays](#loops-and-arrays)|[Simple To-Do App](#simple-todo-app)|
+|[Comparisons and Type Coercion](#comparisons-and-type-coercion)|[Calculator](#calculator)|
+|[Ternary Operators and Constructors](#ternary-operators-and-constructors)|[Pizza Order Menu](#pizza-order-menu)|
+|[Scope Basics and Time Function](#scope-basics-and-time-function)|[AJAX](#ajax)|
+|[String Methods](#string-methods)|[jQuery](#jquery)|
+|[Countdown Function and Simple Slide Show](#countdown-function-and-simple-slide-show)|[Simple To-Do App](#simple-todo-app)|
+|[Loops and Arrays](#loops-and-arrays)||
 
 ---
 
