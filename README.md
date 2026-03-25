@@ -7,9 +7,8 @@
 | ### Basic JavaScript Projects                                                         | ### Advanced JavaScript Projects |
 | ------------------------------------------------------------------------------------- | -------------------------------- |
 
-| [Expressions and Alerts](#expressions-and-alerts)					|
-| ------------------------------------------------------------------------------------- | -------------------------------- |
-| [Functions Basics](#functions-basics)							|
+| [Expressions and Alerts](#expressions-and-alerts) |
+| [Functions Basics](#functions-basics) |
 | [Math Operators](#math-operators)							|
 | [Dictionaries](#dictionaries)								|
 | [Comparisons and Type Coercion](#comparisons-and-type-coercion)			|
