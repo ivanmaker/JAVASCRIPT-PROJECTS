@@ -1,0 +1,46 @@
+/*Styles go here*/
+
+/**Styles**/
+
+#colors{
+    float: left;
+    overflow: hidden;
+    width: 280px;
+}
+
+#colors li{
+    background-color: brown;
+    color: black;
+    cursor: auto;
+    font-size: 30px;
+    line-height: 200px;
+    list-style-position: inside;
+    list-style-type: none;
+    height: 100px;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#colors li.orange {background-color: orange;}
+#colors li.purple {background-color: purple;}
+#colors li.chartreuse {background-color: chartreuse;}
+#colors li.on {opacity: 0.5;}
+p#start {cursor: pointer; color: blue;}
+p#start:hover {text-decoration: underline;}
+
+.playing #colors li{
+    cursor: pointer;
+}
+
+.game-over #colors li{
+    opacity: 0.5;
+}
+
+#level, #start{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 600;
+}
