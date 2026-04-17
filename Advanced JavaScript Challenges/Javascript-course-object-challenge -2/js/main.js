@@ -12,9 +12,8 @@ class Shape { //Base class that Rectangle, Triangle, and Circle derive from
 
 class Rectangle extends Shape { //Subclass of Shape, inherits 'color' and getArea()
 
-    constructor(color){
-        super();
-        this.color = color;
+    constructor(color, height, width){
+        super(color);
         this.height = height;
         this.width = width;
     }
@@ -26,9 +25,8 @@ class Rectangle extends Shape { //Subclass of Shape, inherits 'color' and getAre
 
 class Triangle extends Shape { //Subclass of Shape, inherits 'color' and getArea()
 
-    constructor(color){
-        super();
-        this.color = color;
+    constructor(color, base, height){
+        super(color);
         this.base = base;
         this.height = height;
     }
@@ -40,9 +38,8 @@ class Triangle extends Shape { //Subclass of Shape, inherits 'color' and getArea
 
 class Circle extends Shape { //Subclass of Shape, inherits 'color' and getArea()
 
-    constructor(color){
-        super();
-        this.color = color;
+    constructor(color, radius){
+        super(color);
         this.radius = radius;
     }
 
