@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Facts!</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- removes the browser interface -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Facts API Page</h1>
+            <h2>Press the button to get a fun fact!</h2>
+        </header>
+
+        <!-- page content here -->         
+                <p id="catFact"></p>
+                <button id="catFactButton" onclick="loadCatFact()">Click Me to Load Up a Cat Fact!</button>
+
+                <p id="scienceFact"></p>
+                <button id="catFactButton" onclick="loadScienceFact()">Click Me to Load Up a Science Fact!</button>
+
+        <footer>
+            <p>&bull;Isaac vazquez &bull;</p>
+        </footer>
+
+    </div> <!-- end wrapper -->
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>
